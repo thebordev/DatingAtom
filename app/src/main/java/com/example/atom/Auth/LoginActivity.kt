@@ -1,4 +1,4 @@
-package com.example.atom
+package com.example.atom.Auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,8 @@ import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.atom.MainActivity
+import com.example.atom.R
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {

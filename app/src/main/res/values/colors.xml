@@ -12,4 +12,9 @@
     <color name="grey"></color>
     <color name="purple">#ea14ba</color>
 
+    <color name="icon_false">#cbcbcb</color>
+    <color name="icon_true">#DC21B8</color>
+
+
+
 </resources>

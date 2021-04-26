@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".StartActivity">
+        <activity android:name=".Auth.RegisterActivity" />
+        <activity android:name=".Auth.LoginActivity" />
+        <activity android:name=".Auth.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/messengerFragmnet">
+
+    <fragment
+        android:id="@+id/messengerFragmnet"
+        android:name="com.example.atom.Fragments.MessengerFragmnet"
+        android:label="fragment_messenger"
+        tools:layout="@layout/fragment_messenger" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.atom.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/radarFragment"
+        android:name="com.example.atom.Fragments.RadarFragment"
+        android:label="fragment_radar"
+        tools:layout="@layout/fragment_radar" />
+</navigation>
